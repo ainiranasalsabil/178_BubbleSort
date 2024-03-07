@@ -24,8 +24,8 @@ void input() {      // Procedure untuk input
         cin >> a[i];                            // Input dari pengguna
     }
 }
-void display() {
-    cout << endl;
+void display() { // procedur untuk menampilkan hasil
+    cout << endl; // output baris kosong
     cout << "================================" << endl; // Output ke layar
     cout << "Elemen Array yang telah tersusun" << endl; // Output ke layar
     cout << "================================" << endl; // Output ke layar
