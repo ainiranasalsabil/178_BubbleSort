@@ -24,3 +24,16 @@ void input() {      // Procedure untuk input
         cin >> a[i];                            // Input dari pengguna
     }
 }
+void display() {
+    cout << endl;
+    cout << "================================" << endl; // Output ke layar
+    cout << "Elemen Array yang telah tersusun" << endl; // Output ke layar
+    cout << "================================" << endl; // Output ke layar
+    for (int j = 0; j < n; j++) {                       // Looping dengan j dimulai dari 0 hingga n-1 
+        cout << "Data ke- " << (j + 1) << ": ";                           // Output ke layar
+        cout << a[j] << endl;                          // Ouput ke Layar
+
+    }
+    cout << endl;                                       // Output baris kosong
+}
+
